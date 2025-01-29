@@ -6,7 +6,7 @@ function ClaudRecipe(props) {
     return (
 
         <section className="suggested-recipe-container" aria-live="polite">
-            <H2>Chef Claude Recommends</H2>
+            <h2>Chef Claude Recommends</h2>
             <ReactMarkdown>
                 {props.recipe}
             </ReactMarkdown>
